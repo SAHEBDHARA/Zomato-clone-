@@ -1,8 +1,18 @@
 import React from 'react'
+import './Tab.css'
 
-const Tab = ({ActiveTab, setActiveTab}) => {
+const tabOptions = ['Nightlife', 'Delivery', 'Dining Out'];
+
+
+const Tab = ({changeActiveTab}) => {
   return (
-    <button onClick={()=> setActiveTab('Nightlife')}> on Click </button>
+    tabOptions.map((tabName, i)=>{
+      return(
+        <div className='inline-flex gap-10 justify-center '>
+        <button className='shadow-lg' key={i} onClick={()=> changeActiveTab(tabName)}> {tabName} </button>
+        </div>
+      )
+    })
   )
 }
 

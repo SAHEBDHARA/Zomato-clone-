@@ -12,25 +12,31 @@ import NightLife from '../../components/NightLife/NightLife'
 const Homepage = () => {
 
   const [ ActiveTab, setActiveTab] = useState("Delivery")
+  const changeActiveTab = (activeTab) =>{
+    setActiveTab(activeTab);
+  }
+  
 
   const makeCorrectScreen = (tab)=>{
     switch(tab){
       case "Delivery":
         return <Delivery/>
-        case "Dining Out":
-          return <DiningOut/>
-          case "Nightlife":
-            return <NightLife/>
-            default:
-              return <Delivery/>
+      case "Dining Out":
+        return <DiningOut/>
+      case "Nightlife":
+        return <NightLife/>
+      default:
+        return <Delivery/>
     }
   }
 
 
   return (
+
+    
     <div> 
         <Header/> 
-        <Tab ActiveTab={ActiveTab} setActiveTab={setActiveTab} />
+        <Tab changeActiveTab={changeActiveTab} />
         {makeCorrectScreen(ActiveTab)}
         <Footer/>
     </div>

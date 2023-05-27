@@ -1,3 +1,24 @@
 .header{
-    color: aliceblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 12px;
+
+}
+.header-logo{
+    height: 27px;
+    max-width: 140px;
+    margin-right: 25px;
+}
+.location-logo{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-location-drop{
+    border: 1px solid;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    
 }
