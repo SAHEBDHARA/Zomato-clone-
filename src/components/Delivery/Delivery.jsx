@@ -13,6 +13,14 @@ const Delivery = () => {
       url: "https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png"
     },
     {
+      name: "Burger",
+      url: "https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png"
+    },
+    {
+      name: "Momos",
+      url: "https://b.zmtcdn.com/data/o2_assets/5dbdb72a48cf3192830232f6853735301632716604.png",
+    },
+    {
       name: "Biryani",
       url: "https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png"
     },
@@ -24,28 +32,25 @@ const Delivery = () => {
       name: "Burger",
       url: "https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png"
     },
-    {
-      name: "Momos",
-      url: "https://b.zmtcdn.com/data/o2_assets/5dbdb72a48cf3192830232f6853735301632716604.png",
-    }
   ]
+
+
+  
   return (
     <>
     <div>
-    <div className='filter-food m-10'>
-      <button className=''>Filter</button>
-      <button>rating </button>
-     
-
+    <div className='filter-food m-10 ml-52'>
+      <button className='border-2 border-gray-500 mr-3'>Filter</button>
+      <button className='border-2 border-gray-500'>rating </button>
     </div>
-      <h1 className="font-bold text-2xl ms-32 my-8 ">Inspiration for your first order</h1>
+      <h1 className="font-bold text-2xl ml-52 my-8 ">Inspiration for your first order</h1>
 
       <ImageList images={images} />
 
 
     </div>
     
-    <h1 className="font-bold text-2xl ms-32 my-8 ">Food Collection in {city}</h1>
+    <h1 className="font-bold text-2xl ml-52 my-8 ">Food Collection in {city}</h1>
     <div className="">
        <div className='flex flex-wrap justify-center gap-5 mx-auto '>
         {allFood.map((food, i)=>{

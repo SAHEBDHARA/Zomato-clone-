@@ -36,7 +36,7 @@ const Homepage = () => {
     
     <div> 
         <Header/> 
-        <span className="w-80 bg-red-600">
+        <span className="w-8/12 ml-52">
         <Tab changeActiveTab={changeActiveTab} />
         </span>
         {makeCorrectScreen(ActiveTab)}
