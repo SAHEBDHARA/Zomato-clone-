@@ -4,21 +4,7 @@ import DiningOut from "../DiningOut/DiningOut"
 
 const Header = () => {
 
-  const [searchTerm, setSearchTerm] = useState('');
 
-  const handleSearchChange = (event) => {
-
-    setSearchTerm(event.target.value);
-
-    
-  };
-
-
-
-  const handleSearchSubmit = (event) => {
-    event.preventDefault();
-    
-  };
   
 
 
@@ -46,22 +32,16 @@ const Header = () => {
           <img src="\images\caret-down.png" alt="" className='dropdown h-4 flex '/>
           <div className="search-separator "> </div>
           <div className="searchbar">
-            <img src="\images\search.png" onClick={handleSearchSubmit} alt="search" className=' searchbar-image h-4 items-center flex pointer '/>
-             <input 
-             type="text" 
-             placeholder=' search for resturent, cuisin or a dish' 
-             className='search-input' 
-             onChange={handleSearchChange}
-             />
+            <img src="\images\search.png" alt="search" className=' searchbar-image h-4 items-center flex pointer '/>
+             <input type="text" placeholder=' search for resturent, cuisin or a dish' className='search-input' />
           </div>
          
         </div>
       </div>
       <div className="auth flex flex-row gap-2 w-52">
-        <span className="btn p-3 text-xl" >Log in</span>
+        <span className="btn p-3 text-xl">Log in</span>
         <span className="btn p-3 text-xl">Sign up</span>
       </div>
-      <DiningOut searchTerm={searchTerm}/>
      </div>
     
   )
