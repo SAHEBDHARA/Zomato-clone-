@@ -15,10 +15,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 8px;
 }
 .header-location-drop{
     border: 1px solid;
     width: 70%;
     background-color: rgb(255, 255, 255);
-    
+   
+}
+.dropdown{
+    margin: 10px;
+    margin-left: 20px;
+}
+.searchbar-image{
+   font-size: 20px;
+    margin-right: 8px;
+   margin-top: 2px;
+
+}
+.search-separator{
+    height: 3px;
+}
+
+.searchbar{
+    flex: 2;
+    margin-left: 40px;
+   /* color: gray;s */
+   display: flex;
+   margin: 0 20px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
 }

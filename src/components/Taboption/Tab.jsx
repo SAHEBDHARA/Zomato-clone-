@@ -8,8 +8,8 @@ const Tab = ({changeActiveTab}) => {
   return (
     tabOptions.map((tabName, i)=>{
       return(
-        <div className='inline-flex gap-10 justify-center '>
-        <button className='shadow-lg' key={i} onClick={()=> changeActiveTab(tabName)}> {tabName} </button>
+        <div className='inline-flex gap-10 justify-center bg-black'>
+        <button className='shadow-lg font-bold text-xl' key={i} onClick={()=> changeActiveTab(tabName)}> {tabName} </button>
         </div>
       )
     })

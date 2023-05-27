@@ -16,8 +16,15 @@ const Header = () => {
               className='location-logo'
               />
             <span className=''> Kolkata </span>
+           
           </div>
-          <img src="\images\caret-down.png" alt="" className='dropdown h-4 flex items-center'/>
+          <img src="\images\caret-down.png" alt="" className='dropdown h-4 flex '/>
+          <div className="search-separator "> </div>
+          <div className="searchbar">
+            <img src="\images\search.png" alt="search" className=' searchbar-image h-4 items-center flex pointer '/>
+             <input type="text" placeholder=' search for resturent, cuisin or a dish' className='search-input' />
+          </div>
+         
         </div>
       </div>
       <div className="auth flex flex-row gap-2 w-52">

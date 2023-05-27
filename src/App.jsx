@@ -1,5 +1,6 @@
 
 import Homepage from './pages/home/Homepage'
+// import Slider from 'infinite-react-carousel'
 
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
     <>
   <Homepage/>
   </>
+  
+ 
   )
 }
 

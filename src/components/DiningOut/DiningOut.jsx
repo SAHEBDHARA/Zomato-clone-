@@ -12,8 +12,8 @@ const DiningOut = () => {
 
   return (
     <>
-    <h1>Collection</h1>
-    <h1 className="font-bold text-2xl">Food Collection in {city}</h1>
+    <h1 className='ms-32 my-8'>Collection</h1>
+    <h1 className="font-bold text-2xl ms-32 my-8">Food Collection in {city}</h1>
     <div className="bg-red-500">
        <div className='flex flex-wrap justify-center gap-5 mx-auto bg-green-100'>
         {allFood.map((food, i)=>{
