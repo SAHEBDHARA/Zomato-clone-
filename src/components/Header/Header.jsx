@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 const Header = () => {
   return (
-    <div className='max-width'> This is header </div>
+    <div className='text-3xl font-bold underline'> This is header </div>
   )
 }
 
