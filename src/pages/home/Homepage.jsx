@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Header from "../../components/Header/Header"
 import Tab from '../../components/Taboption/Tab'
-import Footer from '../../components/Footer/footer'
+import Footer from '../../components/Footer/Footer'
 import Delivery from '../../components/Delivery/Delivery'
 import DiningOut from '../../components/DiningOut/DiningOut'
 import NightLife from '../../components/NightLife/NightLife'
