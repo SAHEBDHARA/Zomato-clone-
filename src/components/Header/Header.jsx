@@ -22,17 +22,17 @@ const Header = () => {
         <div className='locate items-center h-13 flex flex-row gap-4 w-5/12 border-2 justify-between p-4'>
           <div className="flex flex-row gap-4">
             <img 
-              src="\images\location.png"  
+              src="https://png.pngtree.com/png-vector/20190215/ourmid/pngtree-vector-location-icon-png-image_515424.jpg"  
               alt="" 
               className='location-logo'
               />
             <span className=''> Kolkata </span>
            
           </div>
-          <img src="\images\caret-down.png" alt="" className='dropdown h-4 flex '/>
+          <img src="https://t4.ftcdn.net/jpg/04/03/18/15/360_F_403181548_94NP0b7ooowJRzB2srpIewpYI0rYTCsS.jpg" alt="" className='dropdown h-4 flex '/>
           <div className="search-separator "> </div>
           <div className="searchbar">
-            <img src="\images\search.png" alt="search" className=' searchbar-image h-4 items-center flex pointer '/>
+            <img src="https://w7.pngwing.com/pngs/765/401/png-transparent-search-logo-magnifying-glass-computer-icons-search-box-icon-search-drawing-icon-lens-data-background-process-thumbnail.png" alt="search" className=' searchbar-image h-4 items-center flex pointer '/>
              <input type="text" placeholder=' search for resturent, cuisin or a dish' className='search-input' />
           </div>
          
