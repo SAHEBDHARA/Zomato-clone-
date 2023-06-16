@@ -10,7 +10,7 @@ function App() {
   
   
   </>
- 
+ // note gonna build tfor this time 
   )
 }
 
