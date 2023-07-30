@@ -4,14 +4,6 @@ import DiningOut from "../DiningOut/DiningOut"
 
 const Header = () => {
 
-
-  
-
-
-  
-
-
-
   return (
     <div className='header'> 
       <img 
@@ -45,6 +37,61 @@ const Header = () => {
      </div>
     
   )
+  // const locations = ['New York', 'London', 'Paris', 'Tokyo']; // Replace with your location options
+
+  // return (
+  //   <header className="bg-white shadow-lg">
+  //   <div className="container mx-auto px-4 py-3">
+  //     <div className="flex items-center justify-between">
+  //       <div className="flex items-center space-x-4">
+  //         <img
+  //           src="https://png.pngtree.com/png-vector/20190215/ourmid/pngtree-vector-location-icon-png-image_515424.jpg"
+  //           alt=""
+  //           className="location-logo h-8 text-red-500" // Add "text-red-500" to make the image color red
+  //         />
+  //         <input
+  //           type="text"
+  //           className="border border-gray-300 rounded-md p-2 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+  //           placeholder="Search for restaurants"
+  //         />
+  //       </div>
+  //       <div className="flex items-center space-x-4">
+  //         <select className="form-select">
+  //           {locations.map((location, index) => (
+  //             <option key={index} value={location}>
+  //               {location}
+  //             </option>
+  //           ))}
+  //         </select>
+  //         <form className="flex space-x-2">
+  //           <input
+  //             type="text"
+  //             className="rounded-md border-gray-300 focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+  //             placeholder="Search for restaurants"
+  //           />
+  //           <button
+  //             type="submit"
+  //             className="px-4 py-2 text-white bg-indigo-500 hover:bg-indigo-600 rounded-md transition duration-300"
+  //           >
+  //             Search
+  //           </button>
+  //         </form>
+  //         <div className="space-x-2">
+  //           <button className="px-4 py-2 text-indigo-500 border border-indigo-500 hover:text-white hover:bg-indigo-500 rounded-md transition duration-300">
+  //             Login
+  //           </button>
+  //           <button className="px-4 py-2 text-white bg-indigo-500 hover:bg-indigo-600 rounded-md transition duration-300">
+  //             Sign Up
+  //           </button>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   </div>
+  // </header>
+  // );
+
+
+
 }
 
 export default Header
