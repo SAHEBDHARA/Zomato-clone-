@@ -15,7 +15,7 @@ const FoodCard = ({food}) => {
 
   return (
     <div className="food-box bg-white w-96 p-3 rounded-lg shadow-lg relative ">
-      <img src={food.image} alt={food.name} className="image h-80  flex rounded-lg mb-2 cursor-pointer " />
+      <img src={food.image} alt={food.name} className="image h-80 w-full  flex rounded-lg mb-2 cursor-pointer " />
       <div className="flex flex-row" style={detailStyle}>
         <div className="w-8/12 ">
           <h3 className="name text-2xl font-bold">{food.name}</h3>

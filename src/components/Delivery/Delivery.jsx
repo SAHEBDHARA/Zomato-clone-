@@ -47,10 +47,9 @@ const Delivery = () => {
 
       <ImageList images={images} />
 
-
     </div>
     
-    <h1 className="font-bold text-2xl ml-52 my-8 ">Food Collection in {city}</h1>
+    <h1 className="font-bold text-2xl ml-52 my-8">Food Collection in {city}</h1>
     <div className="">
        <div className='flex flex-wrap justify-center gap-5 mx-auto '>
         {allFood.map((food, i)=>{
